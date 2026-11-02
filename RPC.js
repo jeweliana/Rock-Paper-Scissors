@@ -81,6 +81,12 @@ for(let i = 0; i<5; i++){
   console.log("Human: " + humanScore);
   console.log("Computer: " + computerScore);
 }
+if(humanScore > computerScore){
+  console.log("Human beats Computer");
+}
+else{
+  console.log("Computer beats Human");
+}
 }
 
 playGame();
